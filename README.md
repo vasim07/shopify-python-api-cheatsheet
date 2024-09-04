@@ -24,6 +24,7 @@ If you think anything’s missing, leave a comment.
 [Fulfillment Service](#Fulfillment-Service)
 [Gift Card](#Gift-Card)
 [Image](#Image)
+[Inventory Item](#Inventory-Item)
 [Locations](#Locations)
 [Order Risk](#Order-Risk)
 [Order](#Order)
@@ -695,6 +696,14 @@ Get Metafields for Image
         "src": "http://cdn.shopify.com/s/files/1/0006/9093/3842/products/ipod-nano.png?v=1389388540"
       }
     }
+
+# Inventory Item
+## Methods
+
+Find InventoryItem
+
+    shopify.InventoryItem.find()
+    
 # Locations
 ## Methods
 
