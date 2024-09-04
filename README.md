@@ -36,6 +36,7 @@ If you think anything’s missing, leave a comment.
 [Shop](#Shop)   
 [ShopifyResource](#ShopifyResource)   
 [Transaction](#Transaction)   
+[Transactions](#Transactions)   
 [Usage Charge](#Usage-Charge)   
 [Variant](#Variant)   
 
@@ -1662,14 +1663,14 @@ Set Headers
 Clear Session
 
     shopify.ShopifyResource.clear_session()
+    
 # Transaction
 ## Methods
 
 Get Transaction
 
     shopify.Transaction.find(389404469, order_id=450789469)
-
-
+  
 ## JSON
     {
       "transaction": {
@@ -1700,6 +1701,14 @@ Get Transaction
         }
       }
     }
+
+# Transactions
+## Methods
+
+Get Transactions (Payouts)
+
+    shopify.Transactions.find(since_id=0)
+    
 # Usage Charge
 ## Methods
 
