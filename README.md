@@ -12,6 +12,7 @@ If you think anything’s missing, leave a comment.
 
 [Mathew](https://www.linkedin.com/in/mathewkeegan) @ [Kano](http://www.kano.me)
 
+[Article][# Article]
 
 ----------
 # Article
